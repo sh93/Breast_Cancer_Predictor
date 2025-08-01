@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 
-model_path = r"C:\Users\aryan\OneDrive\Documents\AlphaIT\Projects\BreastCancer\model\final_breast_cancer.pkl"
+model_path = "final_breast_cancer.pkl"
 with open(model_path, "rb") as model_file:
     lg_model = pickle.load(model_file)
 
